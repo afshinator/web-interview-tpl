@@ -1,3 +1,13 @@
+# Notes regarding this quick & dirty implementation
+
+- Instructions mention 'display events, performers, and venues sequentially' but in your picture the sequence is Event, Venue, performers
+
+- Sometime there are multiple performers, the instructions address this so I always pick the first performers
+
+- If the results are longer than what looks like the max size of results box set in the instructions, I made it scrollable
+
+
+
 # Welcome to Gametime!
 
 What you are looking at is the exact output of `npx create-react-app web-interview-tpl --template redux` (including all the comments)
