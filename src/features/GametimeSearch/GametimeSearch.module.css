@@ -1,0 +1,52 @@
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.container input {
+  width: 93%;  /* TODO: compensates for padding-left below; use calc() instead? */
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #aaa;
+  background: url(../../searchIcon.png) no-repeat scroll 7px 12px; /* TODO: make icon right size */
+  background-size: 20px 20px;
+  padding-left: 30px;
+  outline-width: 0;  /* TODO: is this an appropriate a11y way to get rid of focus style? */
+  font-weight: bolder;
+}
+
+
+.resultsBox {
+  margin:auto;
+  padding: 10px;
+  border-left: 2px solid #bbb;
+  border-right: 2px solid #bbb;
+  border-bottom: 2px solid #bbb;
+  max-height: 300px;    
+  overflow-y: auto;   /* TODO: I'm assuming we want the results box scrollable */
+  width: 90%;
+}
+
+.resultsRow {
+  display:flex;
+  flex-direction: row;
+}
+
+.resultsRow img {
+  margin-right: 10px;
+}
+
+.title {
+
+}
+
+.subtitle {
+  color: #999;
+  font-size:small;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
